@@ -7,10 +7,15 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class NavbarComponent implements OnInit {
+  mobileMenuOpened = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleMobileMenu(): void {
+    this.mobileMenuOpened = !this.mobileMenuOpened;
   }
 
 }
