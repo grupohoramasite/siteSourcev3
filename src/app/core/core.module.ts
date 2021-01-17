@@ -4,11 +4,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './layout/navbar/navbar.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [MainLayoutComponent, NavbarComponent],
+  declarations: [MainLayoutComponent, NavbarComponent, FooterComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
