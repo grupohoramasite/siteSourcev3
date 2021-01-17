@@ -1,3 +1,7 @@
 :host {
-  display: block;
+  @apply flex flex-col min-h-screen;
+
+  main {
+    @apply flex-grow;
+  }
 }
