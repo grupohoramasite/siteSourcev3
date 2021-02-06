@@ -24,5 +24,3 @@ jobs:
         with:
           # Github access token token used to deploy on gh_pages. You can find it on Github.
           github_access_token: ${{ secrets.ACCESS_TOKEN }}
-          # The directory of the angular project, in which all the commands will run
-          base_href: 'siteSourcev3'
