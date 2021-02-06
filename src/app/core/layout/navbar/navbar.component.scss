@@ -1,0 +1,53 @@
+:host {
+  display: block;
+}
+
+nav {
+  @apply bg-black text-white px-2 w-screen pt-4;
+
+  @screen sm {
+    @apply bg-transparent bg-gradient-to-r from-black flex justify-between items-stretch px-6;
+  }
+
+  .logoNav {
+    @apply relative pb-4;
+
+    button {
+      @apply text-white h-6 w-6 absolute;
+      top: calc(50% - 0.75rem);
+      left: 1rem;
+
+      @screen sm {
+        @apply hidden;
+      }
+    }
+
+    h3 {
+      @apply w-full text-center;
+
+      @screen sm {
+        @apply w-auto;
+      }
+
+      img {
+        @apply inline-block h-16;
+
+        @screen sm {
+          @apply m-1;
+        }
+      }
+    }
+  }
+
+  ul {
+    @apply hidden items-center flex-col gap-3 text-white text-lg w-full pb-4;
+
+    &.opened {
+      @apply flex;
+    }
+
+    @screen sm {
+      @apply text-black flex flex-row justify-end;
+    }
+  }
+}
