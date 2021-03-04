@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "items": {
+      "home": "Inicio",
+      "contactus": "Contáctenos",
+      "services": "Servicios"
+    }
+  },
+  "footer": {
+    "shortDescription": "Grupo Horama es una empresa de consultoría en bases de datos que asiste a empresas a tener un manejo eficiente de sus bases de datos.",
+    "reservedRights": "Todos sus derechos reservados. Grupo Horama"
+  }
+}

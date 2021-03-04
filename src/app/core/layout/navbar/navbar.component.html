@@ -1,0 +1,17 @@
+<nav>
+  <div class="logoNav">
+    <button (click)="toggleMobileMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+    <h3>
+      <img src="assets/Logo.png">
+    </h3>
+  </div>
+  <ul [ngClass]="{opened: mobileMenuOpened}">
+    <li>{{'navbar.items.home' | translate | titlecase}}</li>
+    <li>{{'navbar.items.contactus' | translate | titlecase}}</li>
+    <li>{{'navbar.items.services' | translate | titlecase}}</li>
+  </ul>
+</nav>
