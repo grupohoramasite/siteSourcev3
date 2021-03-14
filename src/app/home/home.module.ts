@@ -10,10 +10,11 @@ import { HomeFeatureComponent } from './components/home-feature/home-feature.com
 import { CommonModule } from '@angular/common';
 import { HomeAvailabityComponent } from './components/home-availabity/home-availabity.component';
 import { HomeMonitorComponent } from './components/home-monitor/home-monitor.component';
+import { HomeContactusComponent } from './components/home-contactus/home-contactus.component';
 
 
 @NgModule({
-  declarations: [HomeLayoutComponent, MainHeroComponent, HomeFeatureComponent, HomeAvailabityComponent, HomeMonitorComponent],
+  declarations: [HomeLayoutComponent, MainHeroComponent, HomeFeatureComponent, HomeAvailabityComponent, HomeMonitorComponent, HomeContactusComponent],
   imports: [
     CommonModule,
     TranslateModule.forChild({
