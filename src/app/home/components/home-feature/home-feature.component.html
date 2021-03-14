@@ -1,0 +1,10 @@
+<section>
+  <h2 class="title" translate>home.feature.title</h2>
+  <ul>
+    <li *ngFor="let feature of features">
+      <img [src]="feature.image.src" [alt]="feature.image.alt">
+      <h3>{{feature.title}}</h3>
+      <p>{{feature.description}}</p>
+    </li>
+  </ul>
+</section>

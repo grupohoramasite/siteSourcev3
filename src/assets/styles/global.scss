@@ -1,0 +1,22 @@
+.title {
+  @apply
+    font-semibold
+    text-4xl
+    relative
+    pb-6
+    pt-2;
+  height: fit-content;
+}
+
+.title::before {
+  content: "";
+  @apply
+    absolute
+    border-b-8
+    border-yellow-300
+    border-solid
+    w-16
+    bottom-0
+    left-0
+    pt-2;
+}

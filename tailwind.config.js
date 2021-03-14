@@ -13,6 +13,9 @@ module.exports = {
         'horama-yellow': '#FFE463'
       }
     },
+    maxWidth: {
+      '1/3': '33.33%'
+    }
   },
   variants: {},
   plugins: [],
