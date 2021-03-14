@@ -5,18 +5,32 @@
     relative
     pb-6
     pt-2;
-  height: fit-content;
-}
+    height: fit-content
+  ;
 
-.title::before {
-  content: "";
-  @apply
-    absolute
-    border-b-8
-    border-yellow-300
-    border-solid
-    w-16
-    bottom-0
-    left-0
-    pt-2;
+  &::before {
+    content: "";
+    @apply
+      absolute
+      border-b-8
+      border-yellow-300
+      border-solid
+      w-16
+      bottom-0
+      left-0
+      pt-2;
+  }
+
+  &.right {
+    @apply
+      text-right
+    ;
+
+    &&::before {
+      content: "";
+      @apply
+        right-0;
+      left: auto;
+    }
+  }
 }

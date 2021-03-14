@@ -8,10 +8,12 @@ import { HttpLoaderFactory } from '../core/core.module';
 import { HttpClient } from '@angular/common/http';
 import { HomeFeatureComponent } from './components/home-feature/home-feature.component';
 import { CommonModule } from '@angular/common';
+import { HomeAvailabityComponent } from './components/home-availabity/home-availabity.component';
+import { HomeMonitorComponent } from './components/home-monitor/home-monitor.component';
 
 
 @NgModule({
-  declarations: [HomeLayoutComponent, MainHeroComponent, HomeFeatureComponent],
+  declarations: [HomeLayoutComponent, MainHeroComponent, HomeFeatureComponent, HomeAvailabityComponent, HomeMonitorComponent],
   imports: [
     CommonModule,
     TranslateModule.forChild({
