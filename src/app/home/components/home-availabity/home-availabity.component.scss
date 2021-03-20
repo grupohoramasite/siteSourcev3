@@ -1,0 +1,54 @@
+:host {
+  display: block;
+  position: relative;
+
+  &::before {
+    content: "";
+    @apply
+      bg-cover
+      bg-center
+      bg-homeAvailability
+      absolute
+      top-0
+      bottom-0
+      right-0
+      left-0
+      opacity-75
+    ;
+
+    @screen sm {
+      @apply opacity-100;
+    }
+  }
+
+  section {
+    @apply
+      relative
+      w-full
+      flex
+      bg-gradient-to-r
+      from-white
+      to-transparent
+      flex-col
+      px-4
+      py-10
+      justify-evenly
+    ;
+
+    p {
+      @apply
+        text-3xl
+        font-normal
+        py-5
+        w-full
+      ;
+
+      @screen sm {
+        @apply
+          py-16
+          w-1/2
+        ;
+      }
+    }
+  }
+}

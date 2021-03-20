@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "grupohorama"
+  "defaultProject": "grupohorama",
+  "cli": {
+    "analytics": "c8aa5ff5-ca09-4199-93a5-f15b72b78208"
+  }
 }

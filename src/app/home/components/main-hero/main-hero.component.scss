@@ -1,0 +1,75 @@
+:host {
+  display: block;
+
+  section {
+    @apply
+      bg-homeHero
+      bg-cover
+      w-full
+      h-96
+      bg-center
+      flex;
+
+    @screen sm {
+      @apply
+        justify-around
+        pt-3.5;
+    }
+
+    div {
+      @apply
+        flex
+        flex-col
+        justify-center
+        items-center
+        w-full;
+
+      @screen sm {
+        @apply
+          w-auto
+          items-start;
+      }
+
+      h1 {
+        @apply
+          text-white
+          text-center
+          text-2xl;
+
+        @screen sm {
+          @apply
+            text-left;
+        }
+
+        p {
+          @apply font-bold;
+        }
+      }
+      button {
+        @apply
+          border-solid
+          border-horama-yellow
+          border-2
+          text-horama-yellow
+          rounded-md
+          bg-black
+          opacity-70
+          py-3
+          px-6
+          text-lg
+          mt-10;
+      }
+    }
+
+    img {
+      @apply
+        hidden;
+
+      @screen sm {
+        @apply
+          block;
+      }
+    }
+
+  }
+}
