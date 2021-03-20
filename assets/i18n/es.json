@@ -9,5 +9,35 @@
   "footer": {
     "shortDescription": "Grupo Horama es una empresa de consultoría en bases de datos que asiste a empresas a tener un manejo eficiente de sus bases de datos.",
     "reservedRights": "Todos sus derechos reservados. Grupo Horama"
+  },
+  "home": {
+    "hero": {
+      "title": "Administración de base de datos",
+      "checkOurServices": "Ver nuestros servicios",
+      "ondemand": "on demand"
+    },
+    "feature": {
+      "backup": {
+        "title": "Backup y Recovery",
+        "description": "Nos encargamos de hacer backup y recovery de instancias de bases de datos. Planificamos estrategias de backup acorde a las cargas de trabajo que tengan las mismas."
+      },
+      "title": "Profesionales a disposición 24/7",
+      "high-availability": {
+        "title": "Sistemas de alta disponibilidad",
+        "description": "Enfrente cualquier demanda de carga y cualquier imprevisto con una sólida arquitectura de alta disponibilidad. Nosotros planificamos e implementamos acorde a sus necesidades."
+      },
+      "identity": {
+        "title": "Control de identidad y acceso",
+        "description": "Hacemos relevamiento y seguimiento de quienes pueden y como pueden acceder sus usuarios a sus datos."
+      }
+    },
+    "availability": {
+      "title": "Disponibilidad en todo el mundo",
+      "description": "No importa donde se encuentre su empresa, donde se encuentre su datacenter, nosotros podemos asistirlo."
+    },
+    "monitor": {
+      "title": "Monitoreo y alerta temprana",
+      "description": "Con nuestro propio sistema de monitoreo podemos atacar los problemas antes que nadie."
+    }
   }
 }
