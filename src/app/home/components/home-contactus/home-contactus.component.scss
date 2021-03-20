@@ -19,7 +19,62 @@
 
   section {
     @apply
-      h-96
+      relative
+      bg-cover
+      w-full
+      bg-horama-yellow
+      opacity-80
+      bg-center
+      flex
+      flex-col
+      flex-wrap
+      px-4
+      py-32
     ;
+
+    @screen sm {
+      @apply flex-row;
+    }
+
+    h2 {
+      @apply
+        font-bold
+        my-5
+        text-4xl
+        text-center
+        w-full
+        flex-grow-0
+        flex-shrink-0
+      ;
+    }
+    p {
+      @apply
+        w-full
+        text-3xl
+        my-5
+        text-center
+        ;
+
+      @screen sm {
+        @apply w-1/2;
+      }
+    }
+    div {
+      @apply flex justify-center items-center;
+
+      @screen sm {
+        @apply w-1/2;
+      }
+
+      button {
+        @apply
+          text-3xl
+          bg-black
+          text-horama-yellow
+          py-4
+          px-8
+          rounded;
+      }
+    }
   }
 }
