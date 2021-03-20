@@ -48,6 +48,10 @@ nav {
 
     @screen sm {
       @apply text-black flex flex-row justify-end;
+
+      li {
+        @apply mr-4;
+      }
     }
   }
 }
