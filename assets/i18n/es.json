@@ -38,6 +38,11 @@
     "monitor": {
       "title": "Monitoreo y alerta temprana",
       "description": "Con nuestro propio sistema de monitoreo podemos atacar los problemas antes que nadie."
+    },
+    "contactus": {
+      "title": "Pongamosnos en contacto",
+      "description": "Trabajemos juntos, estemos en contacto.",
+      "action": "Contáctenos"
     }
   }
 }
