@@ -20,6 +20,11 @@ module.exports = {
       '1/3': '33.33%'
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      opacity: ['disabled'],
+      cursor: ['disabled'],
+    }
+  },
   plugins: [],
 }
