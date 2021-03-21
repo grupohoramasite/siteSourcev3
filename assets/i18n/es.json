@@ -44,5 +44,20 @@
       "description": "Trabajemos juntos, estemos en contacto.",
       "action": "Contáctenos"
     }
+  },
+  "contactus": {
+    "title": "Contáctenos",
+    "form": {
+      "name": "Nombre",
+      "mail": "E-Mail",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "minLength": "Minimo 25 caracteres"
+    },
+    "notifications": {
+      "successMessage": "Gracias por contactarse con nosotros",
+      "errorMessage": "Hubo un error con su mensaje, por favor intente de nuevo"
+    }
   }
 }
