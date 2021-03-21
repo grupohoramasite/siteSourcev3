@@ -12,6 +12,6 @@
   <ul [ngClass]="{opened: mobileMenuOpened}">
     <li><a [routerLink]="['/']" routerLinkActive="router-link-active" >{{'navbar.items.home' | translate | titlecase}}</a></li>
     <li><a [routerLink]="['/contactus']" routerLinkActive="router-link-active" >{{'navbar.items.contactus' | translate | titlecase}}</a></li>
-    <li>{{'navbar.items.services' | translate | titlecase}}</li>
+    <li><a [routerLink]="['/services']" routerLinkActive="router-link-active" >{{'navbar.items.services' | translate | titlecase}}</a></li>
   </ul>
 </nav>
