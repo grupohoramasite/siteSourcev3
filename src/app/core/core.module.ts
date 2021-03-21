@@ -8,6 +8,8 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { NotifierModule } from 'angular-notifier';
+import { CommonModule } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http);
@@ -15,24 +17,32 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 @NgModule({
   declarations: [MainLayoutComponent, NavbarComponent, FooterComponent],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
+    CommonModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
+        deps: [HttpClient],
       },
-      defaultLanguage: 'es'
+      defaultLanguage: 'es',
     }),
-    RouterModule
+    RouterModule,
+    NotifierModule.withConfig({
+      position: {
+        vertical: {
+          position: 'top'
+        },
+        horizontal: {
+          position: 'right'
+        }
+      }
+    })
   ],
   exports: [
-    BrowserModule,
-    BrowserAnimationsModule,
     MainLayoutComponent,
-    TranslateModule
-  ]
+    TranslateModule,
+    NotifierModule
+  ],
 })
-export class CoreModule { }
+export class CoreModule {}
