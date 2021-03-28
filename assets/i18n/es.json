@@ -59,5 +59,27 @@
       "successMessage": "Gracias por contactarse con nosotros",
       "errorMessage": "Hubo un error con su mensaje, por favor intente de nuevo"
     }
+  },
+  "services": {
+    "racadministration": {
+      "title": "Administración de RAC",
+      "description": "RAC (Real Application Cluster) es una tecnología compleja que permite tener alta disponibilidad de las instancias de base de datos. En Grupo Horama tenemos vasta experiencia en esta tecnología, su implementación y su puesta a punto."
+    },
+    "standaloneadministration": {
+      "title": "Administración de instancias stand-alone",
+      "description": "A menudo, nuestros clientes prefieren tener un equipo offsite que tenga profundos conocimientos y provea la misma atención al detalle que un equipo onsite. Grupo Horama ofrece servicios de DBA Remoto donde instalamos, actualizamos su software de base de datos, tuneamos sus bases existentes y diseñamos e implementamos nuevas instancias para que puedan ser usadas por sus aplicativos."
+    },
+    "implementation": {
+      "title": "Implementación",
+      "description": "Implementar bases de datos Oracle es un proceso difícil y riesgoso. Los expertos sugieren que la mejor forma de asegurarse el éxito de una implementación de base de datos, es hacerlo con el acompañamiento de un equipo confiable de proveedores de servicios, cuyos miembros saben y pueden llevar a cabo un proyecto en tiempo y forma."
+    },
+    "securityaudit": {
+      "title": "Auditorias de seguridad",
+      "description": "Grupo Horama sigue los lineamientos de Oracle. Entendemos la seguridad de las bases de datos Oracle y tenemos procedimientos propios de auditorias de seguridad para encontrar vulnerabilidades rápido."
+    },
+    "ctaTitle": "Ofrecemos estos servicios y mucho más.",
+    "ctaDescription": "Contáctenos y un jefe de cuenta se pondrá a su disposición.",
+    "contactus": "Contáctenos",
+    "title": "Nuestros servicios"
   }
 }
