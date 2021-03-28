@@ -1,3 +1,80 @@
 :host {
   display: block;
+
+  section {
+    @apply px-8 pb-4;
+
+    @screen sm {
+      @apply py-8;
+    }
+
+    ul {
+      li {
+        @screen sm {
+          @apply flex my-5 ;
+        }
+
+        div {
+          h3 {
+            @apply font-semibold text-2xl my-1;
+          }
+          p {
+            @apply font-light text-xl leading-6 my-5 pr-7;
+          }
+        }
+        img {
+          @screen sm {
+            @apply h-40;
+          }
+        }
+
+        &:nth-child(odd) {
+          @screen sm {
+            @apply flex-row-reverse;
+            div {
+              h3, p {
+                @apply text-right;
+              }
+              p {
+                @apply pr-0 pl-7;
+              }
+            }
+          }
+
+        }
+      }
+    }
+    .ctaContactus {
+      @screen sm {
+        @apply flex justify-between;
+      }
+      div {
+        @apply flex-col;
+
+        @screen sm {
+          @apply flex justify-center;
+        }
+
+        h4 {
+          @apply font-semibold text-xl my-5;
+        }
+
+        h5 {
+          @apply font-semibold text-base my-4;
+        }
+
+        div {
+          @screen sm {
+            @apply block;
+          }
+
+          a {
+            @apply inline-flex my-3;
+          }
+        }
+
+
+      }
+    }
+  }
 }

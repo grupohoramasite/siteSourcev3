@@ -1,1 +1,22 @@
-<p>services works!</p>
+<section>
+  <h1 class="title" translate>services.title</h1>
+  <ul>
+    <li *ngFor="let service of services">
+      <div>
+        <h3>{{service.title | translate}}</h3>
+        <p>{{service.description | translate}}</p>
+      </div>
+      <img [src]="service.imgsrc" [alt]="service.title">
+    </li>
+  </ul>
+  <div class="ctaContactus">
+    <div>
+      <h4>{{'services.ctaTitle' | translate}}</h4>
+      <h5>{{'services.ctaDescription' | translate}}</h5>
+      <div class="text-center">
+        <a class="contactUsButton" [routerLink]="['/contactus']">{{'services.contactus' | translate}}</a>
+      </div>
+    </div>
+    <img src="/assets/services/salesteam.png" alt="{{'services.title' | translate}}">
+  </div>
+</section>
