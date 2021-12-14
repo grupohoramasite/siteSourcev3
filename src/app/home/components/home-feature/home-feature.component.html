@@ -3,8 +3,8 @@
   <ul>
     <li *ngFor="let feature of features">
       <img [src]="feature.image.src" [alt]="feature.image.alt">
-      <h3>{{feature.title}}</h3>
-      <p>{{feature.description}}</p>
+      <h3>{{feature.title | translate}}</h3>
+      <p>{{feature.description | translate}}</p>
     </li>
   </ul>
 </section>
